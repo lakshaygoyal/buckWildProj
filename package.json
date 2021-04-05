@@ -1,6 +1,5 @@
 {
   "name": "react-buckwild-project",
-  "homepage": "https://lakshaygoyal.github.io/BuckWildProject",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,11 +11,10 @@
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "serve": "^11.3.2",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
